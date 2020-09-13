@@ -1,0 +1,426 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-p,
+#name1,
+#name2,
+#name3,
+#name4,
+#name5,
+#name6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+#title1,
+#title2,
+#title3,
+#title4,
+#title5,
+#title6 {
+  font-family: "PT Serif", serif;
+  font-size: small;
+}
+
+img {
+  box-shadow: -2px 2px 2px #ccc;
+}
+
+.headers {
+  display: grid;
+  grid-template-columns: 30rem 10rem 35rem;
+  height: 10rem;
+  line-height: 1.5rem;
+}
+
+h1 {
+  grid-area: 1/1/span 1/span 1;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 900;
+}
+
+.header-p {
+  grid-area: 1/3/span 1/span 1;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 1250px) {
+  .headers {
+    display: flex;
+    flex-wrap: wrap;
+    height: 10rem;
+    line-height: 1.5rem;
+    margin: 3rem;
+  }
+
+  h1 {
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+
+  h3 {
+    font-weight: 900;
+  }
+
+  .header-p {
+    margin-top: 2rem;
+  }
+}
+.allpics {
+  display: grid;
+  grid-template-columns: 6rem 18rem 4rem 18rem 4rem 18rem 4rem 8rem;
+  grid-template-rows: 27rem 2rem 4rem 27rem 2rem 4rem;
+  font-size: small;
+  grid-gap: 1rem;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 4rem 6rem;
+  grid-area: 1/1/span 1/span 3;
+}
+
+#pic-1 {
+  grid-area: 1/2/span 1/span 1;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  border-radius: 0.3rem;
+  float: left;
+}
+
+#pic-2 {
+  grid-area: 1/4/span 1/span 1;
+  width: 100%;
+  height: auto;
+  margin-top: 5rem;
+  border-radius: 0.3rem;
+  float: left;
+}
+
+#pic-3 {
+  grid-area: 1/6/span 1/span 1;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  border-radius: 0.3rem;
+  float: left;
+}
+
+#pic-4 {
+  grid-area: 4/2/span 1/span 1;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.3rem;
+}
+
+#pic-5 {
+  grid-area: 4/4/span 1/span 1;
+  width: 100%;
+  height: 100%;
+  margin-top: 5rem;
+  border-radius: 0.3rem;
+}
+
+#pic-6 {
+  grid-area: 4/6/span 1/span 1;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.3rem;
+}
+
+#name1 {
+  grid-area: 2/2/span 1/span 1;
+  position: relative;
+}
+
+#name2 {
+  grid-area: 3/4/span 1/span 1;
+  position: relative;
+  padding-top: 1rem;
+}
+
+#name3 {
+  grid-area: 2/6/span 1/span 1;
+  position: relative;
+}
+
+#name4 {
+  grid-area: 5/2/span 1/span 1;
+  position: relative;
+}
+
+#name5 {
+  grid-area: 5/4/span 1/span 1;
+  position: relative;
+  padding-top: 5rem;
+}
+
+#name6 {
+  grid-area: 5/6/span 1/span 1;
+  position: relative;
+}
+
+#title1 {
+  grid-area: 1/3/span 1/span 1;
+  text-transform: uppercase;
+  justify-self: start;
+  writing-mode: vertical-rl;
+}
+
+#title2 {
+  grid-area: 1/5/span 1/span 1;
+  margin-top: 5rem;
+  justify-self: start;
+  text-transform: uppercase;
+  writing-mode: vertical-rl;
+}
+
+#title3 {
+  grid-area: 1/7/span 1/span 1;
+  align-self: start;
+  justify-self: start;
+  text-transform: uppercase;
+  writing-mode: vertical-rl;
+}
+
+#title4 {
+  grid-area: 4/3/span 1/span 1;
+  align-self: start;
+  justify-self: start;
+  text-transform: uppercase;
+  writing-mode: vertical-rl;
+}
+
+#title5 {
+  grid-area: 4/5/span 1/span 1;
+  margin-top: 5rem;
+  justify-self: start;
+  text-transform: uppercase;
+  writing-mode: vertical-rl;
+}
+
+#title6 {
+  grid-area: 4/7/span 1/span 1;
+  align-self: start;
+  justify-self: start;
+  text-transform: uppercase;
+  writing-mode: vertical-rl;
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1250px) {
+  .allpics {
+    display: grid;
+    grid-template-columns: 6rem 18rem 4rem 18rem 4rem 8rem;
+    grid-template-rows: 27rem 2rem 4rem 27rem 2rem 4rem 27rem 2rem 4rem;
+    font-size: small;
+    grid-gap: 1rem;
+  }
+
+  #pic-3 {
+    grid-area: 4/2/span 1/span 1;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 0.3rem;
+    float: left;
+  }
+
+  #title3 {
+    grid-area: 4/3/span 1/span 1;
+    align-self: start;
+    justify-self: start;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+  }
+
+  #name3 {
+    grid-area: 5/2/span 1/span 1;
+    position: relative;
+  }
+
+  #pic-4 {
+    grid-area: 4/4/span 1/span 1;
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    border-radius: 0.3rem;
+  }
+
+  #title4 {
+    grid-area: 4/5/span 1/span 1;
+    margin-top: 5rem;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+  }
+
+  #name4 {
+    grid-area: 6/4/span 1/span 1;
+    position: relative;
+    margin-top: 1rem;
+  }
+
+  #pic-5 {
+    grid-area: 7/2/span 1/span 1;
+    width: 100%;
+    height: auto;
+    border-radius: 0.3rem;
+  }
+
+  #title5 {
+    grid-area: 7/3/span 1/span 1;
+    align-self: start;
+    justify-self: start;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+  }
+
+  #name5 {
+    grid-area: 8/2/span 1/span 1;
+    position: relative;
+    padding-top: 5rem;
+  }
+
+  #pic-6 {
+    grid-area: 7/4/span 1/span 1;
+    width: 100%;
+    height: auto;
+    margin-top: 10rem;
+    border-radius: 0.3rem;
+  }
+
+  #title6 {
+    grid-area: 7/5/span 1/span 1;
+    margin-top: 10rem;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+  }
+
+  #name6 {
+    grid-area: 8/4/span 1/span 1;
+    position: relative;
+    margin-top: 10rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .allpics {
+    display: grid;
+    grid-template-columns: 6rem 18rem 4rem 8rem;
+    grid-template-rows: 27rem 2rem 4rem 27rem 2rem 4rem 27rem 2rem 4rem 27rem 2rem 4rem 27rem 2rem 4rem 27rem 2rem 4rem;
+    font-size: small;
+    grid-gap: 1rem;
+  }
+
+  #pic-2 {
+    grid-area: 3/2/span 1/span 1;
+    width: 100%;
+    height: auto;
+    border-radius: 0.3rem;
+  }
+
+  #title2 {
+    grid-area: 3/3/span 1/span 1;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    white-space: nowrap;
+  }
+
+  #name2 {
+    grid-area: 5/2/span 1/span 1;
+    position: relative;
+  }
+
+  #pic-3 {
+    grid-area: 7/2/span 1/span 1;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 0.3rem;
+    float: left;
+  }
+
+  #title3 {
+    grid-area: 7/3/span 1/span 1;
+    align-self: start;
+    justify-self: start;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+  }
+
+  #name3 {
+    grid-area: 8/2/span 1/span 1;
+    position: relative;
+  }
+
+  #pic-4 {
+    grid-area: 9/2/span 1/span 1;
+    width: 100%;
+    height: auto;
+    border-radius: 0.3rem;
+    margin-top: 5rem;
+  }
+
+  #title4 {
+    grid-area: 9/3/span 1/span 1;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    margin-top: 5rem;
+    white-space: nowrap;
+  }
+
+  #name4 {
+    grid-area: 11/2/span 1/span 1;
+    position: relative;
+  }
+
+  #pic-5 {
+    grid-area: 11/2/span 1/span 1;
+    width: 100%;
+    height: auto;
+    border-radius: 0.3rem;
+    margin-top: 5rem;
+  }
+
+  #title5 {
+    grid-area: 11/3/span 1/span 1;
+    align-self: start;
+    justify-self: start;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+  }
+
+  #name5 {
+    grid-area: 13/2/span 1/span 1;
+    position: relative;
+    padding-top: 25rem;
+  }
+
+  #pic-6 {
+    grid-area: 16/2/span 1/span 1;
+    width: 100%;
+    height: auto;
+    border-radius: 0.3rem;
+  }
+
+  #title6 {
+    grid-area: 16/3/span 1/span 1;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+  }
+
+  #name6 {
+    grid-area: 17/2/span 1/span 1;
+    position: relative;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$primaryColor: red;
+$secondaryColor: green;
+.header-p,
+#name1,
+#name2,
+#name3,
+#name4,
+#name5,
+#name6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+#title1,
+#title2,
+#title3,
+#title4,
+#title5,
+#title6 {
+    font-family: 'PT Serif', serif;
+    font-size: small;
+}
+
+img {
+    box-shadow: -2px 2px 2px #ccc;
+}
