@@ -1,6 +1,6 @@
 .allpics {
     display: grid;
-    grid-template-columns: 6rem 18rem 4rem 18rem 4rem 18rem 4rem 8rem;
+    grid-template-columns: 8rem 18rem 4rem 18rem 4rem 18rem 4rem;
     grid-template-rows: 27rem 2rem 4rem 27rem 2rem 4rem;
     font-size: small;
     grid-gap: 1rem;
@@ -144,7 +144,7 @@
 @media screen and (min-width:1001px) and (max-width:1250px) {
     .allpics {
         display: grid;
-        grid-template-columns: 6rem 18rem 4rem 18rem 4rem 8rem;
+        grid-template-columns: 8rem 18rem 4rem 18rem 4rem;
         grid-template-rows: 27rem 2rem 4rem 27rem 2rem 4rem 27rem 2rem 4rem;
         font-size: small;
         grid-gap: 1rem;
@@ -227,7 +227,7 @@
 @media screen and (max-width:1000px) {
     .allpics {
         display: grid;
-        grid-template-columns: 6rem 18rem 4rem 8rem;
+        grid-template-columns: 8rem 18rem 4rem;
         grid-template-rows: 27rem 2rem 4rem 27rem 2rem 4rem 27rem 2rem 4rem 27rem 2rem 4rem 27rem 2rem 4rem 27rem 2rem 4rem;
         font-size: small;
         grid-gap: 1rem;
