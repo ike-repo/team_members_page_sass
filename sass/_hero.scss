@@ -190,37 +190,39 @@
         grid-area: 7 / 2 / span 1 / span 1;
         width: 100%;
         height: auto;
+        margin-top: unset;
         border-radius: 0.3rem;
     }
     #title5 {
         grid-area: 7 / 3 / span 1 / span 1;
         align-self: start;
         justify-self: start;
+        margin-top: unset;
         text-transform: uppercase;
         writing-mode: vertical-rl;
     }
     #name5 {
         grid-area: 8 / 2 / span 1 / span 1;
         position: relative;
-        padding-top: 5rem;
+        padding-top: unset;
     }
     #pic-6 {
         grid-area: 7 / 4 / span 1 / span 1;
         width: 100%;
         height: auto;
-        margin-top: 10rem;
+        margin-top: 5rem;
         border-radius: 0.3rem;
     }
     #title6 {
         grid-area: 7 / 5 / span 1 / span 1;
-        margin-top: 10rem;
+        margin-top: 5rem;
         text-transform: uppercase;
         writing-mode: vertical-rl;
     }
     #name6 {
         grid-area: 8 / 4 / span 1 / span 1;
         position: relative;
-        margin-top: 10rem;
+        margin-top: 5rem;
     }
 }
 
@@ -286,23 +288,24 @@
         position: relative;
     }
     #pic-5 {
-        grid-area: 11 / 2 / span 1 / span 1;
+        grid-area: 12 / 2 / span 1 / span 1;
         width: 100%;
         height: auto;
         border-radius: 0.3rem;
         margin-top: 5rem;
     }
     #title5 {
-        grid-area: 11 / 3 / span 1 / span 1;
+        grid-area: 12 / 3 / span 1 / span 1;
         align-self: start;
         justify-self: start;
         text-transform: uppercase;
         writing-mode: vertical-rl;
+        margin-top: 5rem;
     }
     #name5 {
-        grid-area: 13 / 2 / span 1 / span 1;
+        grid-area: 14 / 2 / span 1 / span 1;
         position: relative;
-        padding-top: 25rem;
+        padding-top: unset;
     }
     #pic-6 {
         grid-area: 16 / 2 / span 1 / span 1;
